@@ -68,7 +68,8 @@ function Education() {
        <div className="edu-detail">
             <p>Education:</p>
                 <ul>
-                    <li>Bachelor of Science in Computer Science, XYZ University</li>
+                    <li>Bachelor of Computer Engineering</li>
+                    <li>From, Ajeenkya D Y Patil School of Engineering  Maharashtra, Pune</li>
                 </ul>
             <p>Skills:</p>
                 <ul>
