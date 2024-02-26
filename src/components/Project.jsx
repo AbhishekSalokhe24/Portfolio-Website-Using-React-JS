@@ -93,7 +93,7 @@ function Project() {
             </div>
           
             <div class="btn-div">
-                <a href="https://github.com/AbhishekSalokhe24/News-Website-Using-React-" target="_blank">View Project</a>
+                <a href="https://github.com/AbhishekSalokhe24/News-Website-Using-React-JS" target="_blank">View Project</a>
             </div>
         </div>
 
