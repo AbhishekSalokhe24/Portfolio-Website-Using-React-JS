@@ -16,7 +16,7 @@ function Services() {
             </div>
             <div class="content">
                 <h3>Web Developer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo cupiditate veniam eligendi porro doloremque delectus dolorum eius eos? Quia possimus debitis corrupti, veritatis exercitationem omnis placeat ad libero dolore?</p>
+                <p>Elevate your online presence with custom web solutions tailored to meet your unique needs. Specializing in modern web technologies like React JS and crafting responsive designs for seamless user experiences, I'm here to bring your vision to life.</p>
             </div>
             <div class="bottom-circle"></div>
         </div>
@@ -27,7 +27,7 @@ function Services() {
             </div>
             <div class="content">
                 <h3>Ui/Ux Designer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo cupiditate veniam eligendi porro doloremque delectus dolorum eius eos? Quia possimus debitis corrupti, veritatis exercitationem omnis placeat ad libero dolore?</p>
+                <p>  Craft engaging digital experiences that captivate your audience. Offering intuitive user interface designs and seamless user experiences, I pay meticulous attention to detail to ensure maximum impact. Let's create something remarkable together!</p>
             </div>
             <div class="bottom-circle"></div>
         </div>
@@ -38,7 +38,7 @@ function Services() {
             </div>
             <div class="content">
                 <h3>Freelancer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quo cupiditate veniam eligendi porro doloremque delectus dolorum eius eos? Quia possimus debitis corrupti, veritatis exercitationem omnis placeat ad libero dolore?</p>
+                <p>Your go-to freelance partner for all your digital needs. With services including web development, UI/UX design, and custom solutions tailored to your requirements, I'm ready to collaborate and exceed your expectations.</p>
             </div>
             <div class="bottom-circle"></div>
         </div>

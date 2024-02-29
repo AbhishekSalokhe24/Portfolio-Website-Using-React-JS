@@ -25,7 +25,8 @@ function Hero() {
           {text}
         </p>
         <Button className="btn hireme-btn">
-          <NavLink to="/contact"> Download Resume </NavLink>
+          {/* Resume Link Here G-drive */}
+           <a href="https://drive.google.com/file/d/1h7VEsV5qS8VSReZLUQ91U4nYcQrU-_jg/view?usp=sharing">Download Resume</a>
         </Button>
       </div>
 

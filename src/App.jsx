@@ -27,7 +27,7 @@ function App() {
       border:"rgba(98,84,243,0.5)",
       hr:"#fff",
     },
-    media:{mobile:"768px", tab:"1024px"},
+    media:{mobile:"768px", tab:"1280px"},
 
   }
   return (
