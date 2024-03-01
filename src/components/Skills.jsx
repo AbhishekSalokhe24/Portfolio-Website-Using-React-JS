@@ -80,7 +80,7 @@ function Skills() {
        <div className="skill-grid">
 
          <div className="skill-div">
-            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="html" srcset="" />
+            <img src="./Images/Skills/html.png" alt="html" srcset="" />
             <h3>HTML</h3>
          </div>
          <div className="skill-div">
