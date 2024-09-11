@@ -56,6 +56,7 @@ justify-content: center;
     height: auto;
   }
   .data-intro{
+   
     padding: 0;
   }
   .user-image img {
@@ -74,7 +75,7 @@ function IntoBox() {
     <Wrapper>
       <div className="intro-card">
         <div className="user-image">
-            <img src="./Images/Abhishek Img24.jpg" alt="" />
+            <img src="./Images/profile-pic.png" alt="" />
         </div>
         <div className="data-intro">
             <p>Welcome to my portfolio! I'm a dedicated web developer passionate about crafting dynamic, user-friendly websites. With a Bachelor's degree in Computer Science and expertise in HTML, CSS, and JavaScript, I focus on delivering top-notch solutions tailored to client and user needs. My aim is to contribute creatively to exciting projects and collaborate with motivated teams. Check out my portfolio for examples of my work, and let's discuss how we can bring your ideas to life!</p>

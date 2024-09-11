@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Button } from '../Styles/Button';
 import { useTypingEffect } from '../Hooks/typing-effect';
 import { useGlobalContext } from '../contex'
+import { FaDownload} from "react-icons/fa";
 
 function Hero() {
 
@@ -26,7 +27,7 @@ function Hero() {
         </p>
         <Button className="btn hireme-btn">
           {/* Resume Link Here G-drive */}
-           <a href="https://drive.google.com/file/d/1h7VEsV5qS8VSReZLUQ91U4nYcQrU-_jg/view?usp=sharing">Download Resume</a>
+           <a href="https://drive.google.com/file/d/1CoFmMvNfTcwbuB1VPwlwP_d9fe7CJULo/view?usp=sharing">Download Resume<FaDownload style={{paddingLeft: "10px"}}/></a>
         </Button>
       </div>
 
@@ -98,6 +99,7 @@ span{
   transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
   display: inline-block;
 }
+  
 
 @keyframes wave-animation {
     0% { transform: rotate( 0.0deg) }

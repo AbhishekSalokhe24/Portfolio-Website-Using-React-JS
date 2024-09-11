@@ -1,129 +1,146 @@
-import React from 'react'
-import styled from 'styled-components';
-import { Button } from '../Styles/Button';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import styled from "styled-components";
+import { Button } from "../Styles/Button";
+import { NavLink } from "react-router-dom";
 
 const Wrapper = styled.section`
-
-display: flex;
-padding: 1rem 6.5rem;
-margin: 1.2rem;
-justify-content: center;
-.main-skill-div{
+  display: flex;
+  padding: 1rem 6.5rem;
+  margin: 1.2rem;
+  justify-content: center;
+  .main-skill-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     height: auto;
-    background-color:  #78716C;
+    background-color: #78716c;
     margin: 2rem 0rem;
     border-radius: 21px;
-}
-.btn-skill{
+  }
+  .btn-skill {
     display: flex;
     justify-content: center;
     margin: 2rem;
-}
-#btn-s{
+  }
+  #btn-s {
     width: 200px;
-}
-.skill-grid{
+  }
+  .skill-grid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
     padding: 1rem;
-}
-.skill-div{
-    display:flex;
+  }
+  .skill-div {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 235px;
     width: 238px;
-    background-color:#57534E;
+    background-color: #57534e;
     border-radius: 15px;
     margin: 1rem;
-}
-.skill-div img{
-  width: 12rem;
-  padding-top: 1rem;
-}
-.skill-div h3 {
+  }
+  .skill-div img {
+    width: 12rem;
+    padding-top: 1rem;
+  }
+  .skill-div h3 {
     font-size: 3rem;
     color: #fff;
     font-weight: 700;
     padding-top: 1rem;
-}
-@media (max-width: ${({ theme }) => theme.media.mobile}) {
-  .skill-div{
-    height: 90px;
-    width: 90px;
   }
-  .skill-div img{
-     width: 45px;
+  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+    .skill-div {
+      height: 90px;
+      width: 90px;
+    }
+    .skill-div img {
+      width: 45px;
+    }
+    .skill-div h3 {
+      font-size: 1.2rem;
+    }
   }
-  .skill-div h3{
-    font-size: 1.2rem;
-  }
-}
 `;
 function Skills() {
   return (
     <Wrapper>
       <div className="main-skill-div">
-       <div className="btn-skill">
-            <Button id="btn-s">
-                <NavLink to="/about">MY SKILLS</NavLink>
-            </Button>
-       </div>
-       <div className="skill-grid">
-
-         <div className="skill-div">
+        <div className="btn-skill">
+          <Button id="btn-s">
+            <NavLink to="/about">MY SKILLS</NavLink>
+          </Button>
+        </div>
+        <div className="skill-grid">
+          <div className="skill-div">
+            <img src="./Images/Skills/angular logo.png" alt="html" srcset="" />
+            <h3>Angular</h3>
+          </div>
+          <div className="skill-div">
+            <img src="./Images/Skills/react js.png" alt="React" srcset="" />
+            <h3>React Js</h3>
+          </div>
+          <div className="skill-div">
+            <img src="./Images/Skills/React-Native-IOS.png" alt="html" srcset="" />
+            <h3>React Native</h3>
+          </div>
+          <div className="skill-div">
             <img src="./Images/Skills/html.png" alt="html" srcset="" />
             <h3>HTML</h3>
-         </div>
-         <div className="skill-div">
+          </div>
+          <div className="skill-div">
             <img src="./Images/Skills/css-3.png" alt="Css" srcset="" />
             <h3>CSS</h3>
-         </div>
-         <div className="skill-div">
+          </div>
+          <div className="skill-div">
             <img src="./Images/Skills/js.png" alt="JS" srcset="" />
             <h3>JavaScript</h3>
-         </div>
-         <div className="skill-div">
-           <img src="./Images/Skills/react js.png" alt="React" srcset="" />
-           <h3>React Js</h3>
-         </div>
-         <div className="skill-div">
-            <img src="./Images/Skills/Tail wind css2.png" alt="Taiwind css" srcset="" />
+          </div>
+          <div className="skill-div">
+            <img src="./Images/Skills/TS logo.png" alt="JS" srcset="" />
+            <h3>TypeScript</h3>
+          </div>
+          <div className="skill-div">
+            <img
+              src="./Images/Skills/Tail wind css2.png"
+              alt="Taiwind css"
+              srcset=""
+            />
             <h3>Tailwind CSS</h3>
-         </div>
-         <div className="skill-div">
-            <img src="./Images/Skills/Bootstrap.png" alt="Bootstrap" srcset="" />
+          </div>
+          <div className="skill-div">
+            <img
+              src="./Images/Skills/Bootstrap.png"
+              alt="Bootstrap"
+              srcset=""
+            />
             <h3>Bootstrap</h3>
-         </div>
-         <div className="skill-div">
-            <img src="./Images/Skills/figma.png" alt="figma" srcset="" />
-            <h3>Figma</h3>
-         </div>
-         <div className="skill-div">
+          </div>
+          <div className="skill-div">
             <img src="./Images/Skills/c-.png" alt="cpp" srcset="" />
             <h3>C++</h3>
-         </div>
-         <div className="skill-div">
-         <img src="./Images/Skills/java1.png" alt="java1" srcset="" />
+          </div>
+          <div className="skill-div">
+            <img src="./Images/Skills/java1.png" alt="java1" srcset="" />
             <h3>Java</h3>
-         </div>
-         <div className="skill-div">
-         <img src="./Images/Skills/my sql.png" alt="sql" srcset="" />
-             <h3>SQL</h3>
-         </div>
-
-       </div>
+          </div>
+          <div className="skill-div">
+            <img src="./Images/Skills/my sql.png" alt="sql" srcset="" />
+            <h3>SQL</h3>
+          </div>
+          <div className="skill-div">
+            <img src="./Images/Skills/figma.png" alt="figma" srcset="" />
+            <h3>Figma</h3>
+          </div>
+        </div>
       </div>
     </Wrapper>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

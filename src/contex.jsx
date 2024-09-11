@@ -30,7 +30,7 @@ const AppProvider = ({children}) => {
                     name:"Abhishek Salokhe",
                     image:"./Images/About Image.png",
                     top_text:"This is me",
-                    bottom_text:"I am Final year Computer Engineering student.",
+                    bottom_text:"I am a Software Engineer at Get My Solutions, Pune",
                 }
             }
     
