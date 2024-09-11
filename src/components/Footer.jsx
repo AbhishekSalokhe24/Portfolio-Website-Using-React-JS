@@ -78,7 +78,7 @@ function Footer() {
         <div className="container grid grid-four-column">
           <div className="footer-about">
             <h3 id="name">Abhishek Salokhe</h3>
-            <p>Software Engineer <br></br>@Get My Solutons Pvt.Ltd, Pune</p>
+            <p>Software Engineer <br></br>@Get My Solutions Pvt.Ltd, Pune</p>
           </div>
 
           {/* 3rs column  */}
