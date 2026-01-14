@@ -11,63 +11,40 @@ function Project() {
     <Wrapper>
       <h2>My Projects</h2>
       <div class="box">
-        <div class="project-card">
-          <div class="title-div">
-            <h3 id="proj-title">1.DishDizzel</h3>
-          </div>
-          <div class="imge-div">
-            <img src="./Images/latest Projects/DishDizzel Per 1.png" alt="" />
-          </div>
-          <div class="tech-div">
-            <button class="tech-btn">HTML</button>
-            <button class="tech-btn">CSS</button>
-            <button class="tech-btn">JavaScript</button>
-          </div>
-          <div class="info">
-            <p id="info-title">Website for Recipes</p>
-            <p id="info-p">
-              Recipe Finder Website using HTML, CSS, JavaScript, API. Welcome to
-              DishDizzel, your go-to recipe finder website! This application
-              allows users to explore and discover various recipes. With a
-              simple and intuitive design, finding your favorite recipes has
-              never been easier.
-            </p>
+        <div className="project-card">
+          <div className="title-div">
+            <h3 id="proj-title">1.Stint.ai</h3>
           </div>
 
-          <div class="btn-div">
-            <a href="https://dishdizzel-recipes.netlify.app/" target="_blank">
-              View Project
-            </a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="title-div">
-            <h3 id="proj-title">2.Car Connexa</h3>
-          </div>
-          <div class="imge-div">
+           <div class="imge-div">
             <img
-              src="./Images/latest Projects/car-connexa-preview.png"
+              src="./Images/latest Projects/Stint-ai.png"
               alt=""
             />
           </div>
-          <div class="tech-div">
-            <button class="tech-btn">HTML</button>
-            <button class="tech-btn">CSS</button>
-            <button class="tech-btn">JavaScript</button>
+
+          <div className="tech-div">
+            <button className="tech-btn">React JS</button>
+            <button className="tech-btn">Node JS</button>
+            <button className="tech-btn">Express JS</button>
+            <button className="tech-btn">Mongo DB</button>
+            <button className="tech-btn">Tailwind CSS</button>
+            <button className="tech-btn">Gemini API</button>
           </div>
-          <div class="info">
-            <p id="info-title">New Car delarship website </p>
+
+          <div className="info">
+            {/* <p id="info-title">Centralized Store for Farmers</p> */}
             <p id="info-p">
-              Car Connexa is your ultimate destination for all things
-              automotive. With a vast database featuring over 100 car models
-              from more than 10 renowned brands, our user-friendly interface
-              makes car browsing a breeze.
+              Stint.ai is an AI-powered task manager that uses the Google Gemini API to generate task titles, descriptions, and actionable steps. It features a Trello-like drag-and-drop board, productivity analytics, and a leaderboard system, all built with the MERN stack and deployed on Netlify, Render, and MongoDB Atlas. 
             </p>
           </div>
 
-          <div class="btn-div">
-            <a href="https://carconnexa.netlify.app/" target="_blank">
+          <div className="btn-div">
+            <a
+              href="https://stint-ai.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Project
             </a>
           </div>
@@ -75,7 +52,7 @@ function Project() {
 
         <div className="project-card">
           <div className="title-div">
-            <h3 id="proj-title">3. Farmingo Mobile App</h3>
+            <h3 id="proj-title">2.Farmingo Mobile App</h3>
           </div>
 
           <div className="imge-div">
@@ -108,7 +85,13 @@ function Project() {
 
           <div className="info">
             {/* <p id="info-title">Centralized Store for Farmers</p> */}
-            <p id="info-p">Mobile application designed specifically for farmers to order essential agricultural products such as seeds, fertilizers, pesticides, and equipment. The app ensures timely delivery and supports local language access to improve accessibility in rural areas.</p>
+            <p id="info-p">
+              Mobile application designed specifically for farmers to order
+              essential agricultural products such as seeds, fertilizers,
+              pesticides, and equipment. The app ensures timely delivery and
+              supports local language access to improve accessibility in rural
+              areas.
+            </p>
           </div>
 
           <div className="btn-div">
@@ -124,42 +107,13 @@ function Project() {
 
         <div class="project-card">
           <div class="title-div">
-            <h3 id="proj-title">4.News Dekho</h3>
+            <h3 id="proj-title">3.Car Connexa</h3>
           </div>
           <div class="imge-div">
-            <img src="./Images/latest Projects/News Dekho.png" alt="" />
-          </div>
-          <div class="tech-div">
-            <button class="tech-btn">React Js</button>
-            <button class="tech-btn">Bootstrap</button>
-            <button class="tech-btn">API</button>
-          </div>
-          <div class="info">
-            <p id="info-title">NewsDekho for latest News</p>
-            <p id="info-p">
-              Introducing our cutting-edge news website built with React and
-              powered by a robust API, delivering the latest news from around
-              the globe. With a sleek and intuitive design, stay informed with
-              up-to-the-minute updates on a wide range of topics.
-            </p>
-          </div>
-
-          <div class="btn-div">
-            <a
-              href="https://github.com/AbhishekSalokhe24/News-Website-Using-React-JS"
-              target="_blank"
-            >
-              View Project
-            </a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="title-div">
-            <h3 id="proj-title">5.Task App</h3>
-          </div>
-          <div class="imge-div">
-            <img src="./Images/latest Projects/Task App JS.png" alt="" />
+            <img
+              src="./Images/latest Projects/car-connexa-preview.png"
+              alt=""
+            />
           </div>
           <div class="tech-div">
             <button class="tech-btn">HTML</button>
@@ -167,17 +121,17 @@ function Project() {
             <button class="tech-btn">JavaScript</button>
           </div>
           <div class="info">
-            <p id="info-title">Website for task management</p>
+            <p id="info-title">New Car delarship website </p>
             <p id="info-p">
-              Introducing our task management website designed to streamline
-              your workflow and boost productivity. With intuitive features and
-              a user-friendly interface, our platform simplifies task
-              organization, prioritization, and collaboration.
+              Car Connexa is your ultimate destination for all things
+              automotive. With a vast database featuring over 100 car models
+              from more than 10 renowned brands, our user-friendly interface
+              makes car browsing a breeze.
             </p>
           </div>
 
           <div class="btn-div">
-            <a href="https://abhis-task-app.netlify.app/" target="_blank">
+            <a href="https://carconnexa.netlify.app/" target="_blank">
               View Project
             </a>
           </div>
@@ -185,10 +139,10 @@ function Project() {
 
         <div class="project-card">
           <div class="title-div">
-            <h3 id="proj-title">6.Calculator</h3>
+            <h3 id="proj-title">4. DishDizzel</h3>
           </div>
           <div class="imge-div">
-            <img src="./Images/latest Projects/Calculator Preview.png" alt="" />
+            <img src="./Images/latest Projects/DishDizzel Per 1.png" alt="" />
           </div>
           <div class="tech-div">
             <button class="tech-btn">HTML</button>
@@ -196,29 +150,26 @@ function Project() {
             <button class="tech-btn">JavaScript</button>
           </div>
           <div class="info">
-            <p id="info-title">Calculator using JavaScript </p>
+            <p id="info-title">Website for Recipes</p>
             <p id="info-p">
-              Introducing our user-friendly calculator built with JavaScript,
-              offering a seamless and intuitive interface for all your
-              calculation needs. Whether you're crunching numbers for work,
-              school, or personal projects, our calculator simplifies the
-              process with its straightforward design.{" "}
+              Recipe Finder Website using HTML, CSS, JavaScript, API. Welcome to
+              DishDizzel, your go-to recipe finder website! This application
+              allows users to explore and discover various recipes. With a
+              simple and intuitive design, finding your favorite recipes has
+              never been easier.
             </p>
           </div>
 
           <div class="btn-div">
-            <a
-              href="https://github.com/AbhishekSalokhe24/Calculator-Using-JavaScript"
-              target="_blank"
-            >
+            <a href="https://dishdizzel-recipes.netlify.app/" target="_blank">
               View Project
             </a>
           </div>
         </div>
 
-         <div class="project-card">
+        <div class="project-card">
           <div class="title-div">
-            <h3 id="proj-title">7.Currency Converter</h3>
+            <h3 id="proj-title">5.Currency Converter</h3>
           </div>
           <div class="imge-div">
             <img
@@ -258,7 +209,7 @@ function Project() {
 
         <div class="project-card">
           <div class="title-div">
-            <h3 id="proj-title">8.Wheather Now App</h3>
+            <h3 id="proj-title">6.Wheather Now App</h3>
           </div>
           <div class="imge-div">
             <img src="./Images/latest Projects/WeatherAPP preview.png" alt="" />

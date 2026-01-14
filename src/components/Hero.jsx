@@ -27,7 +27,7 @@ function Hero() {
         </p>
         <Button className="btn hireme-btn">
           {/* Resume Link Here G-drive */}
-           <a href="https://drive.google.com/file/d/17azyeOfKgU2tSPddw0goE8s6RJFosQZC/view?usp=drive_link">Download Resume<FaDownload style={{paddingLeft: "10px"}}/></a>
+           <a href="https://drive.google.com/file/d/1OpxRLREMCGqwDVhgTIjW7GBQw9zhcCc1/view?usp=sharing">Download Resume<FaDownload style={{paddingLeft: "10px"}}/></a>
         </Button>
       </div>
 
